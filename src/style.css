@@ -1,0 +1,33 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 1cm;
+  }
+}
+
+form {
+  text-align: center;
+  margin: auto;
+}
+
+textarea {
+  display: none;
+}
+
+table {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  border-collapse: separate;
+  border-spacing: 15px;
+  border: solid 3px black;
+}
+
+tbody {
+  margin: auto auto;
+  padding: 0;
+}
+
+td {
+  text-align: center;
+}
